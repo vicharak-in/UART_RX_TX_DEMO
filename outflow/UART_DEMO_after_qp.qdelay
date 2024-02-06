@@ -1,0 +1,641 @@
+placed { cell: "UART_RX_inst/r_Rx_Data~FF" site: eft }
+placed { cell: "UART_RX_inst/r_SM_Main[2]~FF" site: eft }
+placed { cell: "UART_RX_inst/r_Clock_Count[0]~FF" site: eft }
+placed { cell: "valid_in~FF" site: eft }
+placed { cell: "out_data[0]~FF" site: eft }
+placed { cell: "UART_RX_inst/r_Bit_Index[0]~FF" site: eft }
+placed { cell: "UART_RX_inst/r_SM_Main[1]~FF" site: eft }
+placed { cell: "UART_RX_inst/r_SM_Main[0]~FF" site: eft }
+placed { cell: "UART_RX_inst/r_Rx_Data_R~FF" site: eft }
+placed { cell: "UART_RX_inst/r_Clock_Count[1]~FF" site: eft }
+placed { cell: "UART_RX_inst/r_Clock_Count[2]~FF" site: eft }
+placed { cell: "UART_RX_inst/r_Clock_Count[3]~FF" site: eft }
+placed { cell: "UART_RX_inst/r_Clock_Count[4]~FF" site: eft }
+placed { cell: "UART_RX_inst/r_Clock_Count[5]~FF" site: eft }
+placed { cell: "UART_RX_inst/r_Clock_Count[6]~FF" site: eft }
+placed { cell: "UART_RX_inst/r_Clock_Count[7]~FF" site: eft }
+placed { cell: "UART_RX_inst/r_Clock_Count[8]~FF" site: eft }
+placed { cell: "UART_RX_inst/r_Clock_Count[9]~FF" site: eft }
+placed { cell: "UART_RX_inst/r_Clock_Count[10]~FF" site: eft }
+placed { cell: "UART_RX_inst/r_Clock_Count[11]~FF" site: eft }
+placed { cell: "UART_RX_inst/r_Clock_Count[12]~FF" site: eft }
+placed { cell: "UART_RX_inst/r_Clock_Count[13]~FF" site: eft }
+placed { cell: "UART_RX_inst/r_Clock_Count[14]~FF" site: eft }
+placed { cell: "out_data[1]~FF" site: eft }
+placed { cell: "out_data[2]~FF" site: eft }
+placed { cell: "out_data[3]~FF" site: eft }
+placed { cell: "out_data[4]~FF" site: eft }
+placed { cell: "out_data[5]~FF" site: eft }
+placed { cell: "out_data[6]~FF" site: eft }
+placed { cell: "out_data[7]~FF" site: eft }
+placed { cell: "UART_RX_inst/r_Bit_Index[1]~FF" site: eft }
+placed { cell: "UART_RX_inst/r_Bit_Index[2]~FF" site: eft }
+placed { cell: "UART_TX_inst/r_Clock_Count[0]~FF" site: eft }
+placed { cell: "tx_done~FF" site: eft }
+placed { cell: "f_tx_out~FF" site: eft }
+placed { cell: "UART_TX_inst/r_Bit_Index[0]~FF" site: eft }
+placed { cell: "UART_TX_inst/r_Tx_Data[0]~FF" site: eft }
+placed { cell: "UART_TX_inst/r_SM_Main[0]~FF" site: eft }
+placed { cell: "UART_TX_inst/r_Clock_Count[1]~FF" site: eft }
+placed { cell: "UART_TX_inst/r_Clock_Count[2]~FF" site: eft }
+placed { cell: "UART_TX_inst/r_Clock_Count[3]~FF" site: eft }
+placed { cell: "UART_TX_inst/r_Clock_Count[4]~FF" site: eft }
+placed { cell: "UART_TX_inst/r_Clock_Count[5]~FF" site: eft }
+placed { cell: "UART_TX_inst/r_Clock_Count[6]~FF" site: eft }
+placed { cell: "UART_TX_inst/r_Clock_Count[7]~FF" site: eft }
+placed { cell: "UART_TX_inst/r_Clock_Count[8]~FF" site: eft }
+placed { cell: "UART_TX_inst/r_Clock_Count[9]~FF" site: eft }
+placed { cell: "UART_TX_inst/r_Bit_Index[1]~FF" site: eft }
+placed { cell: "UART_TX_inst/r_Bit_Index[2]~FF" site: eft }
+placed { cell: "UART_TX_inst/r_Tx_Data[1]~FF" site: eft }
+placed { cell: "UART_TX_inst/r_Tx_Data[2]~FF" site: eft }
+placed { cell: "UART_TX_inst/r_Tx_Data[3]~FF" site: eft }
+placed { cell: "UART_TX_inst/r_Tx_Data[4]~FF" site: eft }
+placed { cell: "UART_TX_inst/r_Tx_Data[5]~FF" site: eft }
+placed { cell: "UART_TX_inst/r_Tx_Data[6]~FF" site: eft }
+placed { cell: "UART_TX_inst/r_Tx_Data[7]~FF" site: eft }
+placed { cell: "UART_TX_inst/r_SM_Main[1]~FF" site: eft }
+placed { cell: "UART_TX_inst/r_SM_Main[2]~FF" site: eft }
+placed { cell: "i_clk" site: io }
+placed { cell: "data" site: io }
+placed { cell: "f_tx_out" site: io }
+placed { cell: "tx_done" site: io }
+placed { cell: "VCC" site: efl }
+placed { cell: "GND" site: eft }
+placed { cell: "LUT__195" site: eft }
+placed { cell: "LUT__196" site: eft }
+placed { cell: "LUT__197" site: eft }
+placed { cell: "LUT__198" site: eft }
+placed { cell: "LUT__199" site: efl }
+placed { cell: "LUT__200" site: efl }
+placed { cell: "LUT__201" site: eft }
+placed { cell: "LUT__203" site: eft }
+placed { cell: "LUT__204" site: efl }
+placed { cell: "LUT__205" site: eft }
+placed { cell: "LUT__206" site: eft }
+placed { cell: "LUT__207" site: efl }
+placed { cell: "LUT__208" site: efl }
+placed { cell: "LUT__209" site: eft }
+placed { cell: "LUT__210" site: efl }
+placed { cell: "LUT__212" site: eft }
+placed { cell: "LUT__213" site: eft }
+placed { cell: "LUT__214" site: efl }
+placed { cell: "LUT__215" site: efl }
+placed { cell: "LUT__217" site: efl }
+placed { cell: "LUT__218" site: eft }
+placed { cell: "LUT__220" site: eft }
+placed { cell: "LUT__221" site: eft }
+placed { cell: "LUT__222" site: eft }
+placed { cell: "LUT__227" site: eft }
+placed { cell: "LUT__230" site: eft }
+placed { cell: "LUT__232" site: eft }
+placed { cell: "LUT__234" site: eft }
+placed { cell: "LUT__237" site: eft }
+placed { cell: "LUT__240" site: eft }
+placed { cell: "LUT__242" site: eft }
+placed { cell: "LUT__245" site: eft }
+placed { cell: "LUT__246" site: efl }
+placed { cell: "LUT__247" site: eft }
+placed { cell: "LUT__248" site: efl }
+placed { cell: "LUT__249" site: eft }
+placed { cell: "LUT__250" site: efl }
+placed { cell: "LUT__251" site: efl }
+placed { cell: "LUT__254" site: efl }
+placed { cell: "LUT__255" site: efl }
+placed { cell: "LUT__256" site: efl }
+placed { cell: "LUT__257" site: efl }
+placed { cell: "LUT__258" site: efl }
+placed { cell: "LUT__259" site: eft }
+placed { cell: "LUT__262" site: eft }
+placed { cell: "LUT__263" site: efl }
+placed { cell: "LUT__264" site: efl }
+placed { cell: "LUT__265" site: eft }
+placed { cell: "LUT__266" site: efl }
+placed { cell: "LUT__267" site: efl }
+placed { cell: "LUT__268" site: eft }
+placed { cell: "LUT__271" site: efl }
+placed { cell: "LUT__272" site: efl }
+placed { cell: "LUT__273" site: efl }
+placed { cell: "LUT__274" site: eft }
+placed { cell: "LUT__279" site: eft }
+placed { cell: "LUT__281" site: eft }
+placed { cell: "LUT__284" site: efl }
+placed { cell: "LUT__286" site: eft }
+placed { cell: "CLKBUF__0" site: gbuf_block }
+route { driver { cell: "UART_RX_inst/r_Rx_Data_R~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Rx_Data~FF" port: "I[1]" } delay_max: 751 delay_min: 0  }
+route { driver { cell: "VCC" port: "O" } sink { cell: "UART_RX_inst/r_Rx_Data~FF" port: "CE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "VCC" port: "O" } sink { cell: "UART_RX_inst/r_SM_Main[2]~FF" port: "CE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "VCC" port: "O" } sink { cell: "UART_RX_inst/r_SM_Main[1]~FF" port: "CE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "VCC" port: "O" } sink { cell: "UART_RX_inst/r_SM_Main[0]~FF" port: "CE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "VCC" port: "O" } sink { cell: "UART_RX_inst/r_Rx_Data_R~FF" port: "CE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "VCC" port: "O" } sink { cell: "UART_TX_inst/r_SM_Main[0]~FF" port: "CE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "VCC" port: "O" } sink { cell: "UART_TX_inst/r_SM_Main[1]~FF" port: "CE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "VCC" port: "O" } sink { cell: "UART_TX_inst/r_SM_Main[2]~FF" port: "CE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "VCC" port: "O" } sink { cell: "CLKBUF__0" port: "I[0]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_RX_inst/r_Rx_Data~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[0]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "valid_in~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "out_data[0]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_RX_inst/r_Bit_Index[0]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_RX_inst/r_Rx_Data_R~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[1]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[2]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[3]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[4]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[5]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[6]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[7]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[8]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[9]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[10]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[11]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[12]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[13]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[14]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "out_data[1]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "out_data[2]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "out_data[3]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "out_data[4]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "out_data[5]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "out_data[6]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "out_data[7]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_RX_inst/r_Bit_Index[1]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_RX_inst/r_Bit_Index[2]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[0]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "tx_done~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "f_tx_out~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_TX_inst/r_Bit_Index[0]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_TX_inst/r_Tx_Data[0]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[1]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[2]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[3]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[4]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[5]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[6]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[7]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[8]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[9]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_TX_inst/r_Bit_Index[1]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_TX_inst/r_Bit_Index[2]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_TX_inst/r_Tx_Data[1]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_TX_inst/r_Tx_Data[2]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_TX_inst/r_Tx_Data[3]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_TX_inst/r_Tx_Data[4]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_TX_inst/r_Tx_Data[5]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_TX_inst/r_Tx_Data[6]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "UART_TX_inst/r_Tx_Data[7]~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Rx_Data~FF" port: "O_seq" } sink { cell: "out_data[0]~FF" port: "I[1]" } delay_max: 1127 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Rx_Data~FF" port: "O_seq" } sink { cell: "out_data[1]~FF" port: "I[1]" } delay_max: 1131 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Rx_Data~FF" port: "O_seq" } sink { cell: "out_data[2]~FF" port: "I[1]" } delay_max: 1131 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Rx_Data~FF" port: "O_seq" } sink { cell: "out_data[3]~FF" port: "I[1]" } delay_max: 1465 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Rx_Data~FF" port: "O_seq" } sink { cell: "out_data[4]~FF" port: "I[1]" } delay_max: 1083 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Rx_Data~FF" port: "O_seq" } sink { cell: "out_data[5]~FF" port: "I[1]" } delay_max: 1465 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Rx_Data~FF" port: "O_seq" } sink { cell: "out_data[6]~FF" port: "I[1]" } delay_max: 1722 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Rx_Data~FF" port: "O_seq" } sink { cell: "out_data[7]~FF" port: "I[1]" } delay_max: 1448 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Rx_Data~FF" port: "O_seq" } sink { cell: "LUT__212" port: "I[0]" } delay_max: 1083 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Rx_Data~FF" port: "O_seq" } sink { cell: "LUT__218" port: "I[0]" } delay_max: 839 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Rx_Data~FF" port: "O_seq" } sink { cell: "LUT__221" port: "I[2]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_RX_inst/r_Rx_Data~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_RX_inst/r_SM_Main[2]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_RX_inst/r_Clock_Count[0]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "valid_in~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "out_data[0]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_RX_inst/r_Bit_Index[0]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_RX_inst/r_SM_Main[1]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_RX_inst/r_SM_Main[0]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_RX_inst/r_Rx_Data_R~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_RX_inst/r_Clock_Count[1]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_RX_inst/r_Clock_Count[2]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_RX_inst/r_Clock_Count[3]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_RX_inst/r_Clock_Count[4]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_RX_inst/r_Clock_Count[5]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_RX_inst/r_Clock_Count[6]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_RX_inst/r_Clock_Count[7]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_RX_inst/r_Clock_Count[8]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_RX_inst/r_Clock_Count[9]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_RX_inst/r_Clock_Count[10]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_RX_inst/r_Clock_Count[11]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_RX_inst/r_Clock_Count[12]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_RX_inst/r_Clock_Count[13]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_RX_inst/r_Clock_Count[14]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "out_data[1]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "out_data[2]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "out_data[3]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "out_data[4]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "out_data[5]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "out_data[6]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "out_data[7]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_RX_inst/r_Bit_Index[1]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_RX_inst/r_Bit_Index[2]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_Clock_Count[0]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "tx_done~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "f_tx_out~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_Bit_Index[0]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_Tx_Data[0]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_SM_Main[0]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_Clock_Count[1]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_Clock_Count[2]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_Clock_Count[3]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_Clock_Count[4]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_Clock_Count[5]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_Clock_Count[6]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_Clock_Count[7]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_Clock_Count[8]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_Clock_Count[9]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_Bit_Index[1]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_Bit_Index[2]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_Tx_Data[1]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_Tx_Data[2]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_Tx_Data[3]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_Tx_Data[4]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_Tx_Data[5]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_Tx_Data[6]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_Tx_Data[7]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_SM_Main[1]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "UART_TX_inst/r_SM_Main[2]~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "LUT__201" port: "O" } sink { cell: "UART_RX_inst/r_SM_Main[2]~FF" port: "I[1]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__201" port: "O" } sink { cell: "UART_RX_inst/r_SM_Main[0]~FF" port: "I[3]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__201" port: "O" } sink { cell: "LUT__213" port: "I[0]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "LUT__203" port: "O" } sink { cell: "UART_RX_inst/r_SM_Main[2]~FF" port: "RE" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[2]~FF" port: "O_seq" } sink { cell: "valid_in~FF" port: "I[0]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[2]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_SM_Main[1]~FF" port: "RE" } delay_max: 1010 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[2]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_SM_Main[0]~FF" port: "RE" } delay_max: 995 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[2]~FF" port: "O_seq" } sink { cell: "LUT__212" port: "I[3]" } delay_max: 1081 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[2]~FF" port: "O_seq" } sink { cell: "LUT__217" port: "I[2]" } delay_max: 1401 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[0]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Clock_Count[0]~FF" port: "I[0]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[0]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Clock_Count[1]~FF" port: "I[1]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[0]~FF" port: "O_seq" } sink { cell: "LUT__195" port: "I[0]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[0]~FF" port: "O_seq" } sink { cell: "LUT__207" port: "I[2]" } delay_max: 994 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[0]~FF" port: "O_seq" } sink { cell: "LUT__227" port: "I[0]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__210" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[0]~FF" port: "I[1]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__210" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[1]~FF" port: "I[0]" } delay_max: 1010 delay_min: 0  }
+route { driver { cell: "LUT__210" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[2]~FF" port: "I[0]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__210" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[3]~FF" port: "I[2]" } delay_max: 1006 delay_min: 0  }
+route { driver { cell: "LUT__210" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[4]~FF" port: "I[0]" } delay_max: 1006 delay_min: 0  }
+route { driver { cell: "LUT__210" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[5]~FF" port: "I[2]" } delay_max: 995 delay_min: 0  }
+route { driver { cell: "LUT__210" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[6]~FF" port: "I[2]" } delay_max: 994 delay_min: 0  }
+route { driver { cell: "LUT__210" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[7]~FF" port: "I[0]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__210" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[8]~FF" port: "I[0]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__210" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[9]~FF" port: "I[2]" } delay_max: 1083 delay_min: 0  }
+route { driver { cell: "LUT__212" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[0]~FF" port: "CE" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "LUT__212" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[1]~FF" port: "CE" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "LUT__212" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[2]~FF" port: "CE" } delay_max: 1416 delay_min: 0  }
+route { driver { cell: "LUT__212" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[3]~FF" port: "CE" } delay_max: 1421 delay_min: 0  }
+route { driver { cell: "LUT__212" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[4]~FF" port: "CE" } delay_max: 1404 delay_min: 0  }
+route { driver { cell: "LUT__212" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[5]~FF" port: "CE" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__212" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[6]~FF" port: "CE" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__212" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[7]~FF" port: "CE" } delay_max: 1006 delay_min: 0  }
+route { driver { cell: "LUT__212" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[8]~FF" port: "CE" } delay_max: 1006 delay_min: 0  }
+route { driver { cell: "LUT__212" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[9]~FF" port: "CE" } delay_max: 1010 delay_min: 0  }
+route { driver { cell: "LUT__212" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[10]~FF" port: "CE" } delay_max: 1094 delay_min: 0  }
+route { driver { cell: "LUT__212" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[11]~FF" port: "CE" } delay_max: 995 delay_min: 0  }
+route { driver { cell: "LUT__212" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[12]~FF" port: "CE" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__212" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[13]~FF" port: "CE" } delay_max: 994 delay_min: 0  }
+route { driver { cell: "LUT__212" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[14]~FF" port: "CE" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[1]~FF" port: "O_seq" } sink { cell: "valid_in~FF" port: "I[1]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[1]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Bit_Index[0]~FF" port: "I[1]" } delay_max: 1146 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[1]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_SM_Main[0]~FF" port: "I[1]" } delay_max: 1421 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[1]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Bit_Index[1]~FF" port: "I[2]" } delay_max: 1058 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[1]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Bit_Index[2]~FF" port: "I[2]" } delay_max: 485 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[1]~FF" port: "O_seq" } sink { cell: "LUT__204" port: "I[1]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[1]~FF" port: "O_seq" } sink { cell: "LUT__209" port: "I[0]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[1]~FF" port: "O_seq" } sink { cell: "LUT__213" port: "I[2]" } delay_max: 839 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[1]~FF" port: "O_seq" } sink { cell: "LUT__218" port: "I[2]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[1]~FF" port: "O_seq" } sink { cell: "LUT__221" port: "I[3]" } delay_max: 1081 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[1]~FF" port: "O_seq" } sink { cell: "LUT__222" port: "I[0]" } delay_max: 1405 delay_min: 0  }
+route { driver { cell: "LUT__213" port: "O" } sink { cell: "valid_in~FF" port: "CE" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "valid_in~FF" port: "O" } sink { cell: "LUT__203" port: "I[1]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "valid_in~FF" port: "O" } sink { cell: "LUT__213" port: "I[1]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "valid_in~FF" port: "O" } sink { cell: "LUT__214" port: "I[3]" } delay_max: 1083 delay_min: 0  }
+route { driver { cell: "valid_in~FF" port: "O_seq" } sink { cell: "LUT__272" port: "I[1]" } delay_max: 839 delay_min: 0  }
+route { driver { cell: "LUT__215" port: "O" } sink { cell: "out_data[0]~FF" port: "CE" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "out_data[0]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Tx_Data[0]~FF" port: "I[1]" } delay_max: 755 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[0]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Bit_Index[0]~FF" port: "I[0]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[0]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Bit_Index[1]~FF" port: "I[0]" } delay_max: 839 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[0]~FF" port: "O_seq" } sink { cell: "LUT__215" port: "I[0]" } delay_max: 795 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[0]~FF" port: "O_seq" } sink { cell: "LUT__220" port: "I[0]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[0]~FF" port: "O_seq" } sink { cell: "LUT__245" port: "I[2]" } delay_max: 1094 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[0]~FF" port: "O_seq" } sink { cell: "LUT__246" port: "I[0]" } delay_max: 1097 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[0]~FF" port: "O_seq" } sink { cell: "LUT__248" port: "I[0]" } delay_max: 1142 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[0]~FF" port: "O_seq" } sink { cell: "LUT__249" port: "I[1]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[0]~FF" port: "O_seq" } sink { cell: "LUT__250" port: "I[0]" } delay_max: 1417 delay_min: 0  }
+route { driver { cell: "LUT__217" port: "O" } sink { cell: "UART_RX_inst/r_Bit_Index[0]~FF" port: "CE" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__217" port: "O" } sink { cell: "UART_RX_inst/r_Bit_Index[1]~FF" port: "CE" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__217" port: "O" } sink { cell: "UART_RX_inst/r_Bit_Index[2]~FF" port: "CE" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__199" port: "O" } sink { cell: "UART_RX_inst/r_SM_Main[1]~FF" port: "I[0]" } delay_max: 1010 delay_min: 0  }
+route { driver { cell: "LUT__199" port: "O" } sink { cell: "LUT__201" port: "I[1]" } delay_max: 839 delay_min: 0  }
+route { driver { cell: "LUT__199" port: "O" } sink { cell: "LUT__210" port: "I[2]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__199" port: "O" } sink { cell: "LUT__214" port: "I[1]" } delay_max: 755 delay_min: 0  }
+route { driver { cell: "LUT__199" port: "O" } sink { cell: "LUT__217" port: "I[1]" } delay_max: 755 delay_min: 0  }
+route { driver { cell: "LUT__204" port: "O" } sink { cell: "UART_RX_inst/r_SM_Main[1]~FF" port: "I[1]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__204" port: "O" } sink { cell: "LUT__210" port: "I[3]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__204" port: "O" } sink { cell: "LUT__214" port: "I[0]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "LUT__204" port: "O" } sink { cell: "LUT__217" port: "I[0]" } delay_max: 485 delay_min: 0  }
+route { driver { cell: "LUT__218" port: "O" } sink { cell: "UART_RX_inst/r_SM_Main[1]~FF" port: "I[2]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "LUT__222" port: "O" } sink { cell: "UART_RX_inst/r_SM_Main[0]~FF" port: "I[0]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[0]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_SM_Main[0]~FF" port: "I[2]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[0]~FF" port: "O_seq" } sink { cell: "LUT__203" port: "I[0]" } delay_max: 995 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[0]~FF" port: "O_seq" } sink { cell: "LUT__209" port: "I[1]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[0]~FF" port: "O_seq" } sink { cell: "LUT__213" port: "I[3]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[0]~FF" port: "O_seq" } sink { cell: "LUT__214" port: "I[2]" } delay_max: 1465 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[0]~FF" port: "O_seq" } sink { cell: "LUT__217" port: "I[3]" } delay_max: 1734 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[0]~FF" port: "O_seq" } sink { cell: "LUT__218" port: "I[3]" } delay_max: 1010 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_SM_Main[0]~FF" port: "O_seq" } sink { cell: "LUT__222" port: "I[3]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "data" port: "inpad" } sink { cell: "UART_RX_inst/r_Rx_Data_R~FF" port: "I[1]" } delay_max: 4731 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[1]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Clock_Count[1]~FF" port: "I[2]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[1]~FF" port: "O_seq" } sink { cell: "LUT__195" port: "I[1]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[1]~FF" port: "O_seq" } sink { cell: "LUT__207" port: "I[0]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[1]~FF" port: "O_seq" } sink { cell: "LUT__227" port: "I[1]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[2]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Clock_Count[2]~FF" port: "I[1]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[2]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Clock_Count[3]~FF" port: "I[0]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[2]~FF" port: "O_seq" } sink { cell: "LUT__196" port: "I[0]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[2]~FF" port: "O_seq" } sink { cell: "LUT__205" port: "I[0]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[2]~FF" port: "O_seq" } sink { cell: "LUT__227" port: "I[2]" } delay_max: 1006 delay_min: 0  }
+route { driver { cell: "LUT__195" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[2]~FF" port: "I[2]" } delay_max: 1404 delay_min: 0  }
+route { driver { cell: "LUT__195" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[3]~FF" port: "I[1]" } delay_max: 1421 delay_min: 0  }
+route { driver { cell: "LUT__195" port: "O" } sink { cell: "LUT__199" port: "I[1]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[3]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Clock_Count[3]~FF" port: "I[3]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[3]~FF" port: "O_seq" } sink { cell: "LUT__196" port: "I[1]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[3]~FF" port: "O_seq" } sink { cell: "LUT__205" port: "I[1]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[3]~FF" port: "O_seq" } sink { cell: "LUT__227" port: "I[3]" } delay_max: 1006 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[4]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Clock_Count[4]~FF" port: "I[1]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[4]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Clock_Count[5]~FF" port: "I[0]" } delay_max: 1010 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[4]~FF" port: "O_seq" } sink { cell: "LUT__196" port: "I[2]" } delay_max: 755 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[4]~FF" port: "O_seq" } sink { cell: "LUT__205" port: "I[2]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[4]~FF" port: "O_seq" } sink { cell: "LUT__230" port: "I[0]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__227" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[4]~FF" port: "I[2]" } delay_max: 839 delay_min: 0  }
+route { driver { cell: "LUT__227" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[5]~FF" port: "I[1]" } delay_max: 1010 delay_min: 0  }
+route { driver { cell: "LUT__227" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[6]~FF" port: "I[1]" } delay_max: 1093 delay_min: 0  }
+route { driver { cell: "LUT__227" port: "O" } sink { cell: "LUT__232" port: "I[2]" } delay_max: 1006 delay_min: 0  }
+route { driver { cell: "LUT__227" port: "O" } sink { cell: "LUT__234" port: "I[3]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[5]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Clock_Count[5]~FF" port: "I[3]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[5]~FF" port: "O_seq" } sink { cell: "LUT__197" port: "I[1]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[5]~FF" port: "O_seq" } sink { cell: "LUT__205" port: "I[3]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[5]~FF" port: "O_seq" } sink { cell: "LUT__230" port: "I[1]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__230" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[6]~FF" port: "I[0]" } delay_max: 1421 delay_min: 0  }
+route { driver { cell: "LUT__230" port: "O" } sink { cell: "LUT__232" port: "I[1]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "LUT__230" port: "O" } sink { cell: "LUT__234" port: "I[2]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[6]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Clock_Count[6]~FF" port: "I[3]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[6]~FF" port: "O_seq" } sink { cell: "LUT__197" port: "I[0]" } delay_max: 995 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[6]~FF" port: "O_seq" } sink { cell: "LUT__206" port: "I[0]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[6]~FF" port: "O_seq" } sink { cell: "LUT__232" port: "I[0]" } delay_max: 1010 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[6]~FF" port: "O_seq" } sink { cell: "LUT__234" port: "I[0]" } delay_max: 1081 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[7]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Clock_Count[7]~FF" port: "I[1]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[7]~FF" port: "O_seq" } sink { cell: "LUT__196" port: "I[3]" } delay_max: 1010 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[7]~FF" port: "O_seq" } sink { cell: "LUT__197" port: "I[2]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[7]~FF" port: "O_seq" } sink { cell: "LUT__206" port: "I[3]" } delay_max: 1006 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[7]~FF" port: "O_seq" } sink { cell: "LUT__234" port: "I[1]" } delay_max: 1006 delay_min: 0  }
+route { driver { cell: "LUT__232" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[7]~FF" port: "I[2]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[8]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Clock_Count[8]~FF" port: "I[1]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[8]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Clock_Count[9]~FF" port: "I[0]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[8]~FF" port: "O_seq" } sink { cell: "LUT__198" port: "I[0]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[8]~FF" port: "O_seq" } sink { cell: "LUT__206" port: "I[2]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__234" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[8]~FF" port: "I[2]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "LUT__234" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[9]~FF" port: "I[1]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "LUT__234" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[12]~FF" port: "I[0]" } delay_max: 995 delay_min: 0  }
+route { driver { cell: "LUT__234" port: "O" } sink { cell: "LUT__237" port: "I[1]" } delay_max: 795 delay_min: 0  }
+route { driver { cell: "LUT__234" port: "O" } sink { cell: "LUT__242" port: "I[1]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[9]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Clock_Count[9]~FF" port: "I[3]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[9]~FF" port: "O_seq" } sink { cell: "LUT__198" port: "I[1]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[9]~FF" port: "O_seq" } sink { cell: "LUT__206" port: "I[1]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[10]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Clock_Count[10]~FF" port: "I[0]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[10]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Clock_Count[11]~FF" port: "I[0]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[10]~FF" port: "O_seq" } sink { cell: "LUT__200" port: "I[0]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[10]~FF" port: "O_seq" } sink { cell: "LUT__240" port: "I[0]" } delay_max: 1081 delay_min: 0  }
+route { driver { cell: "LUT__237" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[10]~FF" port: "I[1]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__237" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[11]~FF" port: "I[1]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__209" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[10]~FF" port: "I[2]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__209" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[11]~FF" port: "I[3]" } delay_max: 1006 delay_min: 0  }
+route { driver { cell: "LUT__209" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[12]~FF" port: "I[3]" } delay_max: 1405 delay_min: 0  }
+route { driver { cell: "LUT__209" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[13]~FF" port: "I[2]" } delay_max: 1081 delay_min: 0  }
+route { driver { cell: "LUT__209" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[14]~FF" port: "I[3]" } delay_max: 1738 delay_min: 0  }
+route { driver { cell: "LUT__209" port: "O" } sink { cell: "LUT__210" port: "I[1]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__209" port: "O" } sink { cell: "LUT__212" port: "I[1]" } delay_max: 1421 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[11]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Clock_Count[11]~FF" port: "I[2]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[11]~FF" port: "O_seq" } sink { cell: "LUT__200" port: "I[1]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[11]~FF" port: "O_seq" } sink { cell: "LUT__240" port: "I[1]" } delay_max: 1006 delay_min: 0  }
+route { driver { cell: "LUT__240" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[12]~FF" port: "I[1]" } delay_max: 1313 delay_min: 0  }
+route { driver { cell: "LUT__240" port: "O" } sink { cell: "LUT__242" port: "I[2]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[12]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Clock_Count[12]~FF" port: "I[2]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[12]~FF" port: "O_seq" } sink { cell: "LUT__200" port: "I[2]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[12]~FF" port: "O_seq" } sink { cell: "LUT__242" port: "I[0]" } delay_max: 994 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[13]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Clock_Count[13]~FF" port: "I[0]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[13]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Clock_Count[14]~FF" port: "I[0]" } delay_max: 995 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[13]~FF" port: "O_seq" } sink { cell: "LUT__200" port: "I[3]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__242" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[13]~FF" port: "I[1]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "LUT__242" port: "O" } sink { cell: "UART_RX_inst/r_Clock_Count[14]~FF" port: "I[1]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[14]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Clock_Count[14]~FF" port: "I[2]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[14]~FF" port: "O_seq" } sink { cell: "LUT__201" port: "I[0]" } delay_max: 1401 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[14]~FF" port: "O_seq" } sink { cell: "LUT__204" port: "I[0]" } delay_max: 1311 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Clock_Count[14]~FF" port: "O_seq" } sink { cell: "LUT__207" port: "I[1]" } delay_max: 1054 delay_min: 0  }
+route { driver { cell: "LUT__245" port: "O" } sink { cell: "out_data[1]~FF" port: "CE" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "out_data[1]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Tx_Data[1]~FF" port: "I[1]" } delay_max: 1421 delay_min: 0  }
+route { driver { cell: "LUT__246" port: "O" } sink { cell: "out_data[2]~FF" port: "CE" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "out_data[2]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Tx_Data[2]~FF" port: "I[1]" } delay_max: 1411 delay_min: 0  }
+route { driver { cell: "LUT__247" port: "O" } sink { cell: "out_data[3]~FF" port: "CE" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "out_data[3]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Tx_Data[3]~FF" port: "I[1]" } delay_max: 1421 delay_min: 0  }
+route { driver { cell: "LUT__248" port: "O" } sink { cell: "out_data[4]~FF" port: "CE" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "out_data[4]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Tx_Data[4]~FF" port: "I[1]" } delay_max: 1010 delay_min: 0  }
+route { driver { cell: "LUT__249" port: "O" } sink { cell: "out_data[5]~FF" port: "CE" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "out_data[5]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Tx_Data[5]~FF" port: "I[1]" } delay_max: 995 delay_min: 0  }
+route { driver { cell: "LUT__250" port: "O" } sink { cell: "out_data[6]~FF" port: "CE" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "out_data[6]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Tx_Data[6]~FF" port: "I[1]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__251" port: "O" } sink { cell: "out_data[7]~FF" port: "CE" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "out_data[7]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Tx_Data[7]~FF" port: "I[1]" } delay_max: 755 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[1]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Bit_Index[1]~FF" port: "I[1]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[1]~FF" port: "O_seq" } sink { cell: "LUT__215" port: "I[1]" } delay_max: 795 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[1]~FF" port: "O_seq" } sink { cell: "LUT__220" port: "I[1]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[1]~FF" port: "O_seq" } sink { cell: "LUT__245" port: "I[0]" } delay_max: 994 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[1]~FF" port: "O_seq" } sink { cell: "LUT__246" port: "I[2]" } delay_max: 995 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[1]~FF" port: "O_seq" } sink { cell: "LUT__248" port: "I[1]" } delay_max: 1054 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[1]~FF" port: "O_seq" } sink { cell: "LUT__249" port: "I[0]" } delay_max: 1081 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[1]~FF" port: "O_seq" } sink { cell: "LUT__250" port: "I[1]" } delay_max: 995 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[2]~FF" port: "O_seq" } sink { cell: "UART_RX_inst/r_Bit_Index[2]~FF" port: "I[0]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[2]~FF" port: "O_seq" } sink { cell: "LUT__215" port: "I[2]" } delay_max: 1109 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[2]~FF" port: "O_seq" } sink { cell: "LUT__221" port: "I[0]" } delay_max: 1125 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[2]~FF" port: "O_seq" } sink { cell: "LUT__245" port: "I[1]" } delay_max: 1417 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[2]~FF" port: "O_seq" } sink { cell: "LUT__246" port: "I[1]" } delay_max: 995 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[2]~FF" port: "O_seq" } sink { cell: "LUT__247" port: "I[0]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[2]~FF" port: "O_seq" } sink { cell: "LUT__248" port: "I[2]" } delay_max: 1054 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[2]~FF" port: "O_seq" } sink { cell: "LUT__249" port: "I[2]" } delay_max: 1098 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[2]~FF" port: "O_seq" } sink { cell: "LUT__250" port: "I[2]" } delay_max: 1083 delay_min: 0  }
+route { driver { cell: "UART_RX_inst/r_Bit_Index[2]~FF" port: "O_seq" } sink { cell: "LUT__251" port: "I[0]" } delay_max: 1597 delay_min: 0  }
+route { driver { cell: "LUT__220" port: "O" } sink { cell: "UART_RX_inst/r_Bit_Index[2]~FF" port: "I[1]" } delay_max: 839 delay_min: 0  }
+route { driver { cell: "LUT__220" port: "O" } sink { cell: "LUT__221" port: "I[1]" } delay_max: 481 delay_min: 0  }
+route { driver { cell: "LUT__220" port: "O" } sink { cell: "LUT__247" port: "I[2]" } delay_max: 1417 delay_min: 0  }
+route { driver { cell: "LUT__220" port: "O" } sink { cell: "LUT__251" port: "I[2]" } delay_max: 1351 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[0]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[0]~FF" port: "I[0]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[0]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[1]~FF" port: "I[0]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[0]~FF" port: "O_seq" } sink { cell: "LUT__254" port: "I[0]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[0]~FF" port: "O_seq" } sink { cell: "LUT__279" port: "I[0]" } delay_max: 995 delay_min: 0  }
+route { driver { cell: "LUT__259" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[0]~FF" port: "I[1]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "LUT__259" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[1]~FF" port: "I[2]" } delay_max: 995 delay_min: 0  }
+route { driver { cell: "LUT__259" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[2]~FF" port: "I[2]" } delay_max: 995 delay_min: 0  }
+route { driver { cell: "LUT__259" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[3]~FF" port: "I[3]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__259" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[4]~FF" port: "I[2]" } delay_max: 1006 delay_min: 0  }
+route { driver { cell: "LUT__259" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[5]~FF" port: "I[2]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__259" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[6]~FF" port: "I[3]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__259" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[7]~FF" port: "I[3]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__259" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[8]~FF" port: "I[2]" } delay_max: 994 delay_min: 0  }
+route { driver { cell: "LUT__259" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[9]~FF" port: "I[3]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[2]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[0]~FF" port: "CE" } delay_max: 1083 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[2]~FF" port: "O_seq" } sink { cell: "tx_done~FF" port: "I[1]" } delay_max: 1093 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[2]~FF" port: "O_seq" } sink { cell: "f_tx_out~FF" port: "CE" } delay_max: 1094 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[2]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_SM_Main[0]~FF" port: "RE" } delay_max: 839 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[2]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[1]~FF" port: "CE" } delay_max: 1404 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[2]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[2]~FF" port: "CE" } delay_max: 1417 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[2]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[3]~FF" port: "CE" } delay_max: 1083 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[2]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[4]~FF" port: "CE" } delay_max: 1094 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[2]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[5]~FF" port: "CE" } delay_max: 839 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[2]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[6]~FF" port: "CE" } delay_max: 839 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[2]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[7]~FF" port: "CE" } delay_max: 1083 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[2]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[8]~FF" port: "CE" } delay_max: 1421 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[2]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[9]~FF" port: "CE" } delay_max: 1083 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[2]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_SM_Main[1]~FF" port: "RE" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[2]~FF" port: "O_seq" } sink { cell: "LUT__262" port: "I[0]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[2]~FF" port: "O_seq" } sink { cell: "LUT__271" port: "I[2]" } delay_max: 1142 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[2]~FF" port: "O_seq" } sink { cell: "LUT__273" port: "I[1]" } delay_max: 1039 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[1]~FF" port: "O_seq" } sink { cell: "tx_done~FF" port: "I[0]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[1]~FF" port: "O_seq" } sink { cell: "f_tx_out~FF" port: "I[2]" } delay_max: 1404 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[1]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Bit_Index[0]~FF" port: "I[1]" } delay_max: 1137 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[1]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Bit_Index[1]~FF" port: "I[2]" } delay_max: 1448 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[1]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Bit_Index[2]~FF" port: "I[3]" } delay_max: 1448 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[1]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_SM_Main[1]~FF" port: "I[2]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[1]~FF" port: "O_seq" } sink { cell: "LUT__259" port: "I[0]" } delay_max: 839 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[1]~FF" port: "O_seq" } sink { cell: "LUT__262" port: "I[1]" } delay_max: 1416 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[1]~FF" port: "O_seq" } sink { cell: "LUT__263" port: "I[3]" } delay_max: 1006 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[1]~FF" port: "O_seq" } sink { cell: "LUT__271" port: "I[1]" } delay_max: 1039 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[1]~FF" port: "O_seq" } sink { cell: "LUT__272" port: "I[0]" } delay_max: 1328 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[1]~FF" port: "O_seq" } sink { cell: "LUT__274" port: "I[3]" } delay_max: 994 delay_min: 0  }
+route { driver { cell: "LUT__263" port: "O" } sink { cell: "tx_done~FF" port: "CE" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "tx_done~FF" port: "O_seq" } sink { cell: "tx_done" port: "outpad" } delay_max: 10808 delay_min: 0  }
+route { driver { cell: "LUT__268" port: "O" } sink { cell: "f_tx_out~FF" port: "I[0]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[0]~FF" port: "O_seq" } sink { cell: "f_tx_out~FF" port: "I[1]" } delay_max: 1083 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[0]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_SM_Main[0]~FF" port: "I[3]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[0]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_SM_Main[1]~FF" port: "I[1]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[0]~FF" port: "O_seq" } sink { cell: "LUT__259" port: "I[1]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[0]~FF" port: "O_seq" } sink { cell: "LUT__262" port: "I[2]" } delay_max: 1006 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[0]~FF" port: "O_seq" } sink { cell: "LUT__263" port: "I[2]" } delay_max: 1081 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[0]~FF" port: "O_seq" } sink { cell: "LUT__271" port: "I[3]" } delay_max: 1125 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_SM_Main[0]~FF" port: "O_seq" } sink { cell: "LUT__273" port: "I[0]" } delay_max: 1039 delay_min: 0  }
+route { driver { cell: "f_tx_out~FF" port: "O_seq" } sink { cell: "f_tx_out" port: "outpad" } delay_max: 4158 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Bit_Index[0]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Bit_Index[0]~FF" port: "I[0]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Bit_Index[0]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Bit_Index[1]~FF" port: "I[0]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Bit_Index[0]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Bit_Index[2]~FF" port: "I[0]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Bit_Index[0]~FF" port: "O_seq" } sink { cell: "LUT__264" port: "I[2]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Bit_Index[0]~FF" port: "O_seq" } sink { cell: "LUT__265" port: "I[2]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Bit_Index[0]~FF" port: "O_seq" } sink { cell: "LUT__266" port: "I[2]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Bit_Index[0]~FF" port: "O_seq" } sink { cell: "LUT__267" port: "I[2]" } delay_max: 1054 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Bit_Index[0]~FF" port: "O_seq" } sink { cell: "LUT__274" port: "I[0]" } delay_max: 1129 delay_min: 0  }
+route { driver { cell: "LUT__271" port: "O" } sink { cell: "UART_TX_inst/r_Bit_Index[0]~FF" port: "CE" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__271" port: "O" } sink { cell: "UART_TX_inst/r_Bit_Index[1]~FF" port: "CE" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__271" port: "O" } sink { cell: "UART_TX_inst/r_Bit_Index[2]~FF" port: "CE" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__273" port: "O" } sink { cell: "UART_TX_inst/r_Tx_Data[0]~FF" port: "CE" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__273" port: "O" } sink { cell: "UART_TX_inst/r_Tx_Data[1]~FF" port: "CE" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__273" port: "O" } sink { cell: "UART_TX_inst/r_Tx_Data[2]~FF" port: "CE" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__273" port: "O" } sink { cell: "UART_TX_inst/r_Tx_Data[3]~FF" port: "CE" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__273" port: "O" } sink { cell: "UART_TX_inst/r_Tx_Data[4]~FF" port: "CE" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__273" port: "O" } sink { cell: "UART_TX_inst/r_Tx_Data[5]~FF" port: "CE" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__273" port: "O" } sink { cell: "UART_TX_inst/r_Tx_Data[6]~FF" port: "CE" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__273" port: "O" } sink { cell: "UART_TX_inst/r_Tx_Data[7]~FF" port: "CE" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Tx_Data[0]~FF" port: "O_seq" } sink { cell: "LUT__267" port: "I[1]" } delay_max: 1129 delay_min: 0  }
+route { driver { cell: "LUT__274" port: "O" } sink { cell: "UART_TX_inst/r_SM_Main[0]~FF" port: "I[0]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "LUT__272" port: "O" } sink { cell: "UART_TX_inst/r_SM_Main[0]~FF" port: "I[1]" } delay_max: 1041 delay_min: 0  }
+route { driver { cell: "LUT__272" port: "O" } sink { cell: "LUT__273" port: "I[2]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "LUT__258" port: "O" } sink { cell: "UART_TX_inst/r_SM_Main[0]~FF" port: "I[2]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__258" port: "O" } sink { cell: "UART_TX_inst/r_SM_Main[1]~FF" port: "I[0]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__258" port: "O" } sink { cell: "UART_TX_inst/r_SM_Main[2]~FF" port: "I[1]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__258" port: "O" } sink { cell: "LUT__259" port: "I[2]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__258" port: "O" } sink { cell: "LUT__263" port: "I[0]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "LUT__258" port: "O" } sink { cell: "LUT__271" port: "I[0]" } delay_max: 481 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[1]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[1]~FF" port: "I[1]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[1]~FF" port: "O_seq" } sink { cell: "LUT__254" port: "I[1]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[1]~FF" port: "O_seq" } sink { cell: "LUT__279" port: "I[1]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[2]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[2]~FF" port: "I[0]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[2]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[3]~FF" port: "I[0]" } delay_max: 1006 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[2]~FF" port: "O_seq" } sink { cell: "LUT__255" port: "I[0]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[2]~FF" port: "O_seq" } sink { cell: "LUT__279" port: "I[2]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "LUT__254" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[2]~FF" port: "I[1]" } delay_max: 1311 delay_min: 0  }
+route { driver { cell: "LUT__254" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[3]~FF" port: "I[1]" } delay_max: 1006 delay_min: 0  }
+route { driver { cell: "LUT__254" port: "O" } sink { cell: "LUT__258" port: "I[1]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[3]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[3]~FF" port: "I[2]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[3]~FF" port: "O_seq" } sink { cell: "LUT__255" port: "I[1]" } delay_max: 995 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[3]~FF" port: "O_seq" } sink { cell: "LUT__279" port: "I[3]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[4]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[4]~FF" port: "I[0]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[4]~FF" port: "O_seq" } sink { cell: "LUT__255" port: "I[2]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[4]~FF" port: "O_seq" } sink { cell: "LUT__281" port: "I[0]" } delay_max: 1093 delay_min: 0  }
+route { driver { cell: "LUT__279" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[4]~FF" port: "I[1]" } delay_max: 1421 delay_min: 0  }
+route { driver { cell: "LUT__279" port: "O" } sink { cell: "LUT__281" port: "I[1]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[5]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[5]~FF" port: "I[0]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[5]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[6]~FF" port: "I[0]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[5]~FF" port: "O_seq" } sink { cell: "LUT__256" port: "I[1]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[5]~FF" port: "O_seq" } sink { cell: "LUT__284" port: "I[0]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__281" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[5]~FF" port: "I[1]" } delay_max: 839 delay_min: 0  }
+route { driver { cell: "LUT__281" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[6]~FF" port: "I[1]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__281" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[7]~FF" port: "I[1]" } delay_max: 994 delay_min: 0  }
+route { driver { cell: "LUT__281" port: "O" } sink { cell: "LUT__286" port: "I[2]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[6]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[6]~FF" port: "I[2]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[6]~FF" port: "O_seq" } sink { cell: "LUT__256" port: "I[0]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[6]~FF" port: "O_seq" } sink { cell: "LUT__284" port: "I[1]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__284" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[7]~FF" port: "I[0]" } delay_max: 1417 delay_min: 0  }
+route { driver { cell: "LUT__284" port: "O" } sink { cell: "LUT__286" port: "I[1]" } delay_max: 1098 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[7]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[7]~FF" port: "I[2]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[7]~FF" port: "O_seq" } sink { cell: "LUT__255" port: "I[3]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[7]~FF" port: "O_seq" } sink { cell: "LUT__256" port: "I[2]" } delay_max: 995 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[7]~FF" port: "O_seq" } sink { cell: "LUT__286" port: "I[0]" } delay_max: 1010 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[8]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[8]~FF" port: "I[0]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[8]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[9]~FF" port: "I[0]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[8]~FF" port: "O_seq" } sink { cell: "LUT__257" port: "I[0]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__286" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[8]~FF" port: "I[1]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__286" port: "O" } sink { cell: "UART_TX_inst/r_Clock_Count[9]~FF" port: "I[1]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[9]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Clock_Count[9]~FF" port: "I[2]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Clock_Count[9]~FF" port: "O_seq" } sink { cell: "LUT__257" port: "I[1]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Bit_Index[1]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Bit_Index[1]~FF" port: "I[1]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Bit_Index[1]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Bit_Index[2]~FF" port: "I[1]" } delay_max: 839 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Bit_Index[1]~FF" port: "O_seq" } sink { cell: "LUT__264" port: "I[3]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Bit_Index[1]~FF" port: "O_seq" } sink { cell: "LUT__266" port: "I[3]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Bit_Index[1]~FF" port: "O_seq" } sink { cell: "LUT__274" port: "I[1]" } delay_max: 1469 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Bit_Index[2]~FF" port: "O_seq" } sink { cell: "UART_TX_inst/r_Bit_Index[2]~FF" port: "I[2]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Bit_Index[2]~FF" port: "O_seq" } sink { cell: "LUT__268" port: "I[2]" } delay_max: 1142 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Bit_Index[2]~FF" port: "O_seq" } sink { cell: "LUT__274" port: "I[2]" } delay_max: 1469 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Tx_Data[1]~FF" port: "O_seq" } sink { cell: "LUT__266" port: "I[1]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Tx_Data[2]~FF" port: "O_seq" } sink { cell: "LUT__267" port: "I[0]" } delay_max: 1054 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Tx_Data[3]~FF" port: "O_seq" } sink { cell: "LUT__266" port: "I[0]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Tx_Data[4]~FF" port: "O_seq" } sink { cell: "LUT__265" port: "I[1]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Tx_Data[5]~FF" port: "O_seq" } sink { cell: "LUT__264" port: "I[1]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Tx_Data[6]~FF" port: "O_seq" } sink { cell: "LUT__265" port: "I[0]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "UART_TX_inst/r_Tx_Data[7]~FF" port: "O_seq" } sink { cell: "LUT__264" port: "I[0]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__262" port: "O" } sink { cell: "UART_TX_inst/r_SM_Main[2]~FF" port: "RE" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__262" port: "O" } sink { cell: "LUT__263" port: "I[1]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "i_clk" port: "inpad" } sink { cell: "CLKBUF__0" port: "IO_in" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "LUT__196" port: "O" } sink { cell: "LUT__199" port: "I[0]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__197" port: "O" } sink { cell: "LUT__199" port: "I[2]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__198" port: "O" } sink { cell: "LUT__199" port: "I[3]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__198" port: "O" } sink { cell: "LUT__237" port: "I[0]" } delay_max: 795 delay_min: 0  }
+route { driver { cell: "LUT__198" port: "O" } sink { cell: "LUT__240" port: "I[2]" } delay_max: 481 delay_min: 0  }
+route { driver { cell: "LUT__200" port: "O" } sink { cell: "LUT__201" port: "I[2]" } delay_max: 1465 delay_min: 0  }
+route { driver { cell: "LUT__200" port: "O" } sink { cell: "LUT__204" port: "I[2]" } delay_max: 485 delay_min: 0  }
+route { driver { cell: "LUT__200" port: "O" } sink { cell: "LUT__208" port: "I[0]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "LUT__205" port: "O" } sink { cell: "LUT__208" port: "I[1]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__206" port: "O" } sink { cell: "LUT__208" port: "I[2]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__207" port: "O" } sink { cell: "LUT__208" port: "I[3]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__208" port: "O" } sink { cell: "LUT__210" port: "I[0]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "LUT__208" port: "O" } sink { cell: "LUT__212" port: "I[2]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__208" port: "O" } sink { cell: "LUT__218" port: "I[1]" } delay_max: 995 delay_min: 0  }
+route { driver { cell: "LUT__208" port: "O" } sink { cell: "LUT__222" port: "I[1]" } delay_max: 839 delay_min: 0  }
+route { driver { cell: "LUT__214" port: "O" } sink { cell: "LUT__215" port: "I[3]" } delay_max: 481 delay_min: 0  }
+route { driver { cell: "LUT__214" port: "O" } sink { cell: "LUT__245" port: "I[3]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__214" port: "O" } sink { cell: "LUT__246" port: "I[3]" } delay_max: 485 delay_min: 0  }
+route { driver { cell: "LUT__214" port: "O" } sink { cell: "LUT__247" port: "I[1]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__214" port: "O" } sink { cell: "LUT__248" port: "I[3]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__214" port: "O" } sink { cell: "LUT__249" port: "I[3]" } delay_max: 525 delay_min: 0  }
+route { driver { cell: "LUT__214" port: "O" } sink { cell: "LUT__250" port: "I[3]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__214" port: "O" } sink { cell: "LUT__251" port: "I[1]" } delay_max: 481 delay_min: 0  }
+route { driver { cell: "LUT__221" port: "O" } sink { cell: "LUT__222" port: "I[2]" } delay_max: 795 delay_min: 0  }
+route { driver { cell: "LUT__255" port: "O" } sink { cell: "LUT__258" port: "I[0]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "LUT__256" port: "O" } sink { cell: "LUT__258" port: "I[2]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__257" port: "O" } sink { cell: "LUT__258" port: "I[3]" } delay_max: 437 delay_min: 0  }
+route { driver { cell: "LUT__264" port: "O" } sink { cell: "LUT__265" port: "I[3]" } delay_max: 438 delay_min: 0  }
+route { driver { cell: "LUT__265" port: "O" } sink { cell: "LUT__268" port: "I[1]" } delay_max: 485 delay_min: 0  }
+route { driver { cell: "LUT__266" port: "O" } sink { cell: "LUT__267" port: "I[3]" } delay_max: 485 delay_min: 0  }
+route { driver { cell: "LUT__267" port: "O" } sink { cell: "LUT__268" port: "I[0]" } delay_max: 525 delay_min: 0  }

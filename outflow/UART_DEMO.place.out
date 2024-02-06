@@ -1,0 +1,172 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.1.150 
+Compiled: Jun 23 2023.
+
+Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T85F324" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "/home/prapti/git_file/UART_RX_TX_DEMO/outflow/UART_DEMO.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.00140775 seconds.
+	VDB Netlist Checker took 0 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 196.084 MB, end = 196.084 MB, delta = 0 MB
+VDB Netlist Checker resident set memory usage: begin = 62.388 MB, end = 62.644 MB, delta = 0.256 MB
+	VDB Netlist Checker peak resident set memory usage = 2746.64 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from '/home/prapti/git_file/UART_RX_TX_DEMO/outflow/UART_DEMO.interface.csv'.
+Successfully processed interface constraints file "/home/prapti/git_file/UART_RX_TX_DEMO/outflow/UART_DEMO.interface.csv".
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+Pass 0: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 0 blocks in total.
+Removed 0 LUT buffers.
+Successfully created VPR logical netlist from Verific binary DataBase file "/home/prapti/git_file/UART_RX_TX_DEMO/outflow/UART_DEMO.vdb".
+Netlist pre-processing took 0.00432492 seconds.
+	Netlist pre-processing took 0 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 196.084 MB, end = 196.084 MB, delta = 0 MB
+Netlist pre-processing resident set memory usage: begin = 62.004 MB, end = 62.9 MB, delta = 0.896 MB
+	Netlist pre-processing peak resident set memory usage = 2746.64 MB
+***** Ending stage netlist pre-processing *****
+
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+
+***** Beginning stage packing ... *****
+Generate proto netlist for file "/home/prapti/git_file/UART_RX_TX_DEMO/work_pnr/UART_DEMO.net_proto" took 0.000163 seconds
+Creating IO constraints file '/home/prapti/git_file/UART_RX_TX_DEMO/work_pnr/UART_DEMO.io_place'
+Packing took 0.00316484 seconds.
+	Packing took 0 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 198.324 MB, end = 198.324 MB, delta = 0 MB
+Packing resident set memory usage: begin = 65.588 MB, end = 65.844 MB, delta = 0.256 MB
+	Packing peak resident set memory usage = 2746.64 MB
+***** Ending stage packing *****
+
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file /home/prapti/git_file/UART_RX_TX_DEMO/work_pnr/UART_DEMO.net_proto
+Read proto netlist for file "/home/prapti/git_file/UART_RX_TX_DEMO/work_pnr/UART_DEMO.net_proto" took 5.1e-05 seconds
+Setup net and block data structure took 0.001602 seconds
+Packed netlist loading took 0.0101238 seconds.
+	Packed netlist loading took 0.01 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 198.324 MB, end = 198.72 MB, delta = 0.396 MB
+Packed netlist loading resident set memory usage: begin = 65.844 MB, end = 66.484 MB, delta = 0.64 MB
+	Packed netlist loading peak resident set memory usage = 2746.64 MB
+***** Ending stage packed netlist loading *****
+
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+
+No SDC file found.  Using default timing constraint of 1 ns.
+NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from '/home/prapti/git_file/UART_RX_TX_DEMO/outflow/UART_DEMO.interface.csv'.
+Successfully processed interface constraints file "/home/prapti/git_file/UART_RX_TX_DEMO/outflow/UART_DEMO.interface.csv".
+Writing IO placement constraints to '/home/prapti/git_file/UART_RX_TX_DEMO/outflow/UART_DEMO.interface.io'.
+
+Reading placement constraints from '/home/prapti/git_file/UART_RX_TX_DEMO/outflow/UART_DEMO.interface.io'.
+
+Reading placement constraints from '/home/prapti/git_file/UART_RX_TX_DEMO/work_pnr/UART_DEMO.io_place'.
+***** Ending stage initial placement *****
+
+***** Beginning stage placement ... *****
+Create /home/prapti/git_file/UART_RX_TX_DEMO/outflow/UART_DEMO_after_qp.qdelay
+QPLACER STATIC DB USAGE DISABLED
+NumRegions 1
+Starting Global Placer with 4 threads ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1         927           -1016        16.4%
+          2         867           -1016        19.5%
+          3         592           -1016        29.7%
+          4         606           -1016        33.7%
+          5         583           -1224        37.0%
+          6         620           -1016        37.0%
+          7         478           -1580        48.0%
+          8         553           -1663        54.5%
+          9         480           -3532        69.3%
+         10         479           -4035        74.9%
+         11         493           -4306        75.2%
+         12         560           -3869        76.4%
+         13         499           -4780        80.6%
+         14         497           -5276        81.7%
+         15         552           -5082        81.8%
+         16         535           -5155        82.5%
+         17         543           -5360        84.6%
+         18         527           -6014        85.5%
+         19         514           -5886        85.9%
+         20         491           -5477        91.7%
+         21         576           -5778        91.7%
+         22         659           -5849        91.7%
+         23         726           -5702        91.7%
+         24         756           -5702        91.7%
+         25         696           -5621        91.7%
+         26         716           -5449        94.2%
+         27         693           -5806        94.2%
+         28         669           -5640        95.5%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0         491            7561        30.0
+          1         465            5717        28.4
+          2         429            5446        26.3
+          3         402            5340        24.1
+          4         391            5232        22.0
+          5         403            5232        20.0
+          6         417            5156        18.2
+          7         418            5156        16.6
+          8         418            5156        15.1
+          9         420            5275        13.7
+         10         421            5251        12.5
+         11         410            5252        11.4
+         12         404            5227        10.4
+         13         401            5087         9.5
+         14         405            5028         8.7
+         15         419            5734         7.9
+         16         412            4709         7.2
+         17         403            4930         6.6
+         18         398            4759         6.0
+         19         402            4672         5.5
+         20         403            4865         5.0
+         21         399            4609         4.6
+         22         393            4782         4.2
+         23         409            4599         3.8
+         24         409            5177         3.5
+         25         415            4782         3.2
+         26         416            4599         2.9
+         27         417            4782         2.7
+         28         418            4599         2.4
+         29         412            4709         2.2
+         30         408            4672         2.0
+         31         407            4956         1.9
+         32         418            5003         1.7
+Generate /home/prapti/git_file/UART_RX_TX_DEMO/outflow/UART_DEMO_after_qp.qdelay
+Placement successful: 119 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.00552219 at 0,0
+Congestion-weighted HPWL per net: 1.46439
+
+Reading placement constraints from '/home/prapti/git_file/UART_RX_TX_DEMO/outflow/UART_DEMO.qplace'.
+Finished Realigning Types (34 blocks needed type change)
+
+Completed placement consistency check successfully.
+Successfully created FPGA place file '/home/prapti/git_file/UART_RX_TX_DEMO/outflow/UART_DEMO.place'
+Placement took 3.47699 seconds.
+	Placement took 3.68 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 205.528 MB, end = 827.62 MB, delta = 622.092 MB
+Placement resident set memory usage: begin = 74.164 MB, end = 244.188 MB, delta = 170.024 MB
+	Placement peak resident set memory usage = 2746.64 MB
+***** Ending stage placement *****
+

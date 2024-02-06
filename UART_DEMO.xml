@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<efx:project name="UART_DEMO" description="" last_change_date="Mon February 5 2024 12:11:49" location="/home/prapti/Downloads/Efinity/efinity-2023.1.150-ubuntu-x64/efinity/2023.1/project/UART_DEMO" sw_version="2023.1.150" last_run_state="pass" last_run_tool="efx_pgm" last_run_flow="bitstream" config_result_in_sync="true" design_ood="sync" place_ood="sync" route_ood="sync" xmlns:efx="http://www.efinixinc.com/enf_proj" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/enf_proj enf_proj.xsd">
+<efx:project name="UART_DEMO" description="" last_change_date="Tue February 6 2024 18:26:52" location="/home/prapti/git_file/UART_RX_TX_DEMO" sw_version="2023.1.150" last_run_state="pass" last_run_tool="efx_pgm" last_run_flow="bitstream" config_result_in_sync="true" design_ood="sync" place_ood="sync" route_ood="sync" xmlns:efx="http://www.efinixinc.com/enf_proj" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/enf_proj enf_proj.xsd">
     <efx:device_info>
         <efx:family name="Trion"/>
         <efx:device name="T85F324"/>
         <efx:timing_model name="C3"/>
     </efx:device_info>
     <efx:design_info def_veri_version="verilog_2k" def_vhdl_version="vhdl_2008">
-        <efx:top_module name=""/>
+        <efx:top_module name="Top_design"/>
         <efx:design_file name="UART_RX.v" version="default" library="default"/>
-        <efx:design_file name="UART_RX_FSM.v" version="default" library="default"/>
         <efx:design_file name="UART_TX.v" version="default" library="default"/>
-        <efx:design_file name="UART_INTERNAL_FSM.v" version="default" library="default"/>
-        <efx:design_file name="UART_FSM_REG.v" version="default" library="default"/>
-        <efx:design_file name="UART_TX_FSM.v" version="default" library="default"/>
         <efx:design_file name="Top_design.v" version="default" library="default"/>
         <efx:top_vhdl_arch name=""/>
     </efx:design_info>
